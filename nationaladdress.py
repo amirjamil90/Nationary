@@ -32,9 +32,11 @@ for i in range(0,len(latitudes)):
         json_data=json.loads(data)
         print(json_data['Addresses'][0]['PKAddressID'])     #TO GET THE NATIONAL ADDRESS COMPLETE CODE WHICH INCLUDES POSTAL CODE, BULDING CODE AND ADDITIONAL CODE. 
         conn.close()  
-        time.sleep(4)              #CLOSE THE CONNECTION. WE NEED TO CLOSE THE CONNECTION EVERYTIME. SO FOR MULTIPLE REQUEST MULTIPLE CONNECTIONS NEEDED AS THREAD. 
+        time.sleep(6)              #CLOSE THE CONNECTION. WE NEED TO CLOSE THE CONNECTION EVERYTIME. SO FOR MULTIPLE REQUEST MULTIPLE CONNECTIONS NEEDED AS THREAD. 
     except Exception as e:
-        print("[Errno {0}] {1}".format(e.errno, e.strerror))
+        print("Not Applicable")
+	time.sleep(6)
+
 
 
 
