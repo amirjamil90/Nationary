@@ -20,7 +20,7 @@ print(building_id)
 for i in range(0,len(latitudes)):
     headers = {
     # Request headers
-    'api_key': '4d3592db5746421bbceec98aa299b82f',
+    'api_key': '',
     }
 
     params = urllib.parse.urlencode({
