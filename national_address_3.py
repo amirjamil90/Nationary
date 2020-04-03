@@ -8,7 +8,7 @@ from openpyxl.drawing.image import Image
 from openpyxl.styles import Alignment
 from openpyxl.styles.borders import Border, Side
 import http.client, urllib.request, urllib.parse, urllib.error, base64
-
+#need to work on standard codification of variable names
 wb=Workbook()
 dest_filename = 'final_book.xlsx'
 ws2 = wb.create_sheet(title="scancode")
