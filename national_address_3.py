@@ -1,3 +1,8 @@
+#This code is written by Mohammad Amir Jamil during deputation in Kingdom of Saudi Arabia. 
+#The code shall fetch National Address for particular Building for given latitude & longitude.
+#The code shall have sleep time for 6 seconds between adjacent calls since this is prerequisite from National Address API. 
+#The code shouldnot be used for Business Purpose since it was developed for fetching National Address for MoCIT Project of NBB-2020. 
+
 import json
 import pandas as pd
 from pandas import ExcelWriter
