@@ -1,3 +1,5 @@
+# Demo for the working of Python Pandas on Excel Column names
+# Location of the Building Code shall be fetched from 2 columns i.e. Latitude and Longitude.
 import pandas as pd
 from pandas import ExcelWriter
 from pandas import ExcelFile
